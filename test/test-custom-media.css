@@ -1,0 +1,11 @@
+@custom-media --xsmall only screen;
+@custom-media --small only screen and (min-width: 351px);
+@custom-media --medium only screen and (min-width: 531px);
+@custom-media --large only screen and (min-width: 701px);
+
+.test {
+	slayout: 4 / 4 2 2,
+		(--small) 6 / 6 5 1,
+		(--medium) 8 / 8 4 4,
+		(--large) 12 / 8 4 4;
+}

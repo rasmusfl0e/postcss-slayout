@@ -1,0 +1,4 @@
+.test {
+	slayout: 4 / 4 2 2,
+		(min-width: 640px) 12 / 6 3 3;
+}

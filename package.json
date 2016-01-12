@@ -1,0 +1,25 @@
+{
+  "name": "postcss-slayout",
+  "version": "0.0.0",
+  "description": "A PostCSS plugin to transform Slayout custom properties into CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasmusfl0e/postcss-slayout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rasmusfl0e/postcss-slayout/issues"
+  },
+  "homepage": "https://github.com/rasmusfl0e/postcss-slayout#readme",
+  "dependencies": {
+    "postcss": "^5.0.14"
+  },
+  "devDependencies": {
+    "postcss-custom-media": "^5.0.0"
+  }
+}

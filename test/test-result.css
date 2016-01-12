@@ -1,0 +1,30 @@
+.test {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.test:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.test > * {
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+	float: left;
+}
+.test > :nth-child(2), .test > :nth-child(n+3) {
+	width: 50%;
+}
+.test > :nth-child(1) {
+	width: 100%;
+}
+@media (min-width: 640px) {
+	.test > :nth-child(2), .test > :nth-child(n+3) {
+		width: 25%
+	}
+	.test > :nth-child(1) {
+		width: 50%
+	}
+}
